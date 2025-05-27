@@ -25,5 +25,6 @@ jobs:
   
         - name: Run PyTest
           run: pytest
+          
         - name: Run Behave BDD tests
           run: behave
